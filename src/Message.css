@@ -1,0 +1,12 @@
+.Message {
+    margin-top: 250px;
+}
+
+.Message h1 {
+    margin-bottom: 50px;
+}
+
+.Message h2 {
+    animation: 2s ease-out slideUp infinite;
+    margin: 75px;
+}

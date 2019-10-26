@@ -1,0 +1,71 @@
+.StartGame {
+    margin-top: 50px;
+}
+
+.StartGame img {
+    size: 50%;
+    width: 25%;
+    animation: spin 20s linear infinite;
+}
+
+.StartGame h1 {
+    letter-spacing: 10px;
+    font-size: 500%;
+    animation: 5s ease-out slideUp;
+    margin-bottom: 10px;
+    color: blue;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+.StartGame h2 {
+    color: aqua;
+    text-shadow: 0 0 5px #fff, 0 0 10px blue;
+    letter-spacing: 2.5px;
+}
+
+.StartGame button {
+    border: 0;
+    padding: 0 10px 0 10px;
+    margin-top: 25px;
+    background-color: gold;
+    font-family: 'equinoxbold';
+    border-radius: 5%;
+    font-size: 120%;
+    cursor: pointer;
+    color: blue;
+    animation: 2s ease-out slideUp infinite;
+    text-shadow: 0 0 2px white;
+    box-shadow: 0 0 10px gold, 0 0 20px yellow, 0 0 30px yellow, 0 0 40px yellow, 0 0 50px darkgoldenrod;
+}
+
+.StartGame button:hover {
+    background-color: blue;
+    color: gold;
+}
+
+@keyframes slideUp {
+    0% {
+        transform: translateY(20px);
+    }
+    50% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(20px);
+    }
+}
+
+@keyframes glow {
+    from {
+      text-shadow: 0 0 5px aqua, 0 0 10px aqua, 0 0 15px darkgoldenrod, 0 0 20px darkgoldenrod, 0 0 25px darkgoldenrod, 0 0 30px darkgoldenrod, 0 0 35px darkgoldenrod;
+    }
+    to {
+      text-shadow: 0 0 5px aqua, 0 0 10px aqua, 0 0 15px gold, 0 0 20px gold, 0 0 25px gold, 0 0 30px gold, 0 0 35px gold;
+    }
+}
+
+@keyframes spin { 
+    100% { 
+        transform: rotate(360deg); 
+    } 
+}

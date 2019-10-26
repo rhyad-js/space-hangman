@@ -1,0 +1,71 @@
+.Hangman h1 {
+    color: blue;
+    animation: glow 1s ease-in-out infinite alternate;
+    margin-bottom: 0;
+}
+
+.Hangman p {
+    margin: 0;
+}
+
+.Hangman-guess {
+    font-size: 150%;
+    padding-bottom: 10px;
+}
+
+.Hangman-word {
+    font-size: 150%;
+    padding-bottom: 10px;
+}
+
+.Hangman img {
+    margin-top: 0;
+    max-width: 20%;
+}
+
+.Hangman-button {
+    border: none;
+    font-size: 110%;
+    cursor: pointer;
+    width: 30px;
+    margin: 5px 3px 2px 3px;
+    letter-spacing: 1px;
+    outline: none;
+    background: blue;
+    color: gold;
+    box-shadow: 0 6px darkblue;
+    border-radius: 5px;
+    box-shadow: 0 0 10px aqua, 0 0 20px aqua, 0 0 30px aqua;
+}
+
+.Hangman-button:hover {
+    background-color: gold;
+    color: blue;
+    box-shadow: 0 0 10px gold, 0 0 20px gold, 0 0 30px gold;
+}
+
+.Hangman-button:disabled {
+    background: #bdbdbd;
+    color: black;
+    box-shadow: 0 0 0 0;
+}
+
+.Hangman-reset {
+    border: 0;
+    padding: 5px 20px 5px 20px;
+    margin-top: 25px;
+    border-radius: 50%;
+    background-color: gold;
+    font-family: 'equinoxbold';
+    font-size: 120%;
+    cursor: pointer;
+    color: blue;
+    text-shadow: 0 0 2px white;
+    box-shadow: 0 0 10px blue, 0 0 20px aqua, 0 0 30px lightblue, 0 0 40px lightblue
+}
+
+
+.Hangman-reset:hover {
+    background-color: blue;
+    color: gold;
+}
